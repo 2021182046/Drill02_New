@@ -26,6 +26,10 @@ def run_retangle():
     for x in range(50,750+1,5):
         render_frame(x,90) #xy 위치에 캐틱터 그리는 함수
 
+    #top line
+    for x in range(750, 50-1, -5):
+        render_frame(x, 550)
+
 while True:
     run_circle()
     run_retangle()
