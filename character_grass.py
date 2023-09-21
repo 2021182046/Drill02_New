@@ -30,6 +30,10 @@ def run_retangle():
     for x in range(750, 50-1, -5):
         render_frame(x, 550)
 
+    #right line
+    for y in range(90, 550+1, 5):
+        render_frame(750, y)
+
 while True:
     run_circle()
     run_retangle()
